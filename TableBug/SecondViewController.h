@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FirstViewController.h"
+
 
 @interface SecondViewController : UIViewController
 
+@property(nonatomic,retain) FirstViewController * firstViewController;
+- (IBAction)saveClicked:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *text;
 
 @end
 

@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController<UITableViewDataSource>
 
-
+@property (nonatomic,retain) IBOutlet UITableView *table;
+@property (nonatomic, retain) NSString * value;
 @end
 

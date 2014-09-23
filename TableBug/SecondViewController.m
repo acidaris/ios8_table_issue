@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)saveClicked:(id)sender {
+    self.firstViewController.value = self.text.text;
+    [self.navigationController popViewControllerAnimated:YES];
+}
 @end
