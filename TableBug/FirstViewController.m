@@ -43,6 +43,10 @@
     cell.textLabel.text = @"This is a test";
     cell.detailTextLabel.text = self.value;
 
+    CGRect frame = cell.detailTextLabel.frame;
+    NSLog(@"detailTextLabel x=%f y=%f width=%f height=%f",
+            frame.origin.x,frame.origin.y,frame.size.width,frame.size.height);
+
     return cell;
 }
 
