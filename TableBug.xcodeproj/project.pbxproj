@@ -15,6 +15,7 @@
 		5111299519D1241C006B2D5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5111299419D1241C006B2D5B /* Images.xcassets */; };
 		5111299819D1241C006B2D5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5111299619D1241C006B2D5B /* LaunchScreen.xib */; };
 		511129A419D1241D006B2D5B /* TableBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 511129A319D1241D006B2D5B /* TableBugTests.m */; };
+		8A36CB6C235012704EC75165 /* UpdatingUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36C5EA58A9370C84AF14D9 /* UpdatingUITableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		5111299D19D1241D006B2D5B /* TableBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		511129A219D1241D006B2D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		511129A319D1241D006B2D5B /* TableBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableBugTests.m; sourceTree = "<group>"; };
+		8A36C1BCE8118427D685E359 /* UpdatingUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatingUITableViewCell.h; sourceTree = "<group>"; };
+		8A36C5EA58A9370C84AF14D9 /* UpdatingUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdatingUITableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				5111299419D1241C006B2D5B /* Images.xcassets */,
 				5111299619D1241C006B2D5B /* LaunchScreen.xib */,
 				5111298419D1241C006B2D5B /* Supporting Files */,
+				8A36C5EA58A9370C84AF14D9 /* UpdatingUITableViewCell.m */,
+				8A36C1BCE8118427D685E359 /* UpdatingUITableViewCell.h */,
 			);
 			path = TableBug;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				5111298A19D1241C006B2D5B /* AppDelegate.m in Sources */,
 				5111298D19D1241C006B2D5B /* FirstViewController.m in Sources */,
 				5111298719D1241C006B2D5B /* main.m in Sources */,
+				8A36CB6C235012704EC75165 /* UpdatingUITableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
