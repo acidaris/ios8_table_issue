@@ -12,7 +12,17 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    CGRect newFrame = CGRectMake(15.0, 25.50, 150.0, 14.5);
+    CGRect contentFrame = self.contentView.frame;
+    CGRect newFrame;
+    if (contentFrame.size.height > 43.5) {
+        // iPhone 6 plus has slightly different ratios
+        newFrame = CGRectMake(16.0, 25.66666, 150.0, 14.33333);
+    }
+    else {
+        // iPhone 5 and 6 works with this.
+        newFrame = CGRectMake(15.0, 25.50, 150.0, 14.5);
+    }
+
     self.detailTextLabel.frame = newFrame;
 }
 
